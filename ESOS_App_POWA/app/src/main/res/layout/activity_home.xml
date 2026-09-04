@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/surface_white">
+
+    <!-- Status Bar -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:orientation="horizontal"
+        android:background="@color/primary_dark"
+        android:gravity="center_vertical"
+        android:paddingHorizontal="16dp"
+        android:paddingVertical="8dp">
+
+        <!-- App Name/Logo -->
+
+        <!-- GPS Status -->
+        <TextView
+            android:layout_width="116dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/app_name"
+            android:textColor="@color/text_white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/gpsStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/gps_active"
+            android:textSize="12sp"
+            android:textColor="@color/success_green"
+            android:layout_marginHorizontal="8dp" />
+
+        <!-- Network Status -->
+        <TextView
+            android:id="@+id/networkStatusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/network_status"
+            android:textSize="12sp"
+            android:textColor="@color/success_green"
+            android:layout_marginHorizontal="8dp" />
+
+        <!-- Menu Button -->
+
+        <!-- Quick Exit Button -->
+        <ImageButton
+            android:id="@+id/menuButton"
+            android:layout_width="36dp"
+            android:layout_height="48dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/content_description_menu"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_menu"
+            android:tint="@color/text_white" />
+
+        <ImageButton
+            android:id="@+id/quickExitButton"
+            android:layout_width="39dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="8dp"
+            android:background="?attr/selectableItemBackgroundBorderless"
+            android:contentDescription="@string/quick_exit"
+            android:scaleType="centerInside"
+            android:src="@drawable/ic_exit"
+            android:tint="@color/text_white" />
+    </LinearLayout>
+
+    <!-- Main Content -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="24dp">
+
+            <!-- SOS Button Section -->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="40dp">
+
+                <FrameLayout
+                    android:id="@+id/sosButton"
+                    android:layout_width="180dp"
+                    android:layout_height="180dp"
+                    android:background="@drawable/sos_button_background"
+                    android:contentDescription="@string/content_description_sos_button"
+                    android:clickable="true"
+                    android:focusable="true">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/sosButtonText"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sos_button_label"
+                            android:textSize="48sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/text_white" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/sos_subtitle"
+                            android:textSize="12sp"
+                            android:textColor="@color/text_white"
+                            android:layout_marginTop="8dp"
+                            android:gravity="center" />
+                    </LinearLayout>
+                </FrameLayout>
+            </LinearLayout>
+
+            <!-- Secondary Action Buttons -->
+            <Button
+                android:id="@+id/findShelterButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/find_shelter"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_secondary_background"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="@string/find_shelter" />
+
+            <Button
+                android:id="@+id/reportIncidentButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/report_incident"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_secondary_background"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="@string/report_incident" />
+
+            <Button
+                android:id="@+id/emergencyContactsButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/emergency_contacts"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_secondary_background"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="@string/emergency_contacts" />
+
+            <Button
+                android:id="@+id/secureChatButton"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:text="@string/secure_chat"
+                android:textColor="@color/text_white"
+                android:textSize="14sp"
+                android:textStyle="bold"
+                android:background="@drawable/button_secondary_background"
+                android:layout_marginBottom="12dp"
+                android:contentDescription="@string/secure_chat" />
+
+            <!-- Progress Bar -->
+            <ProgressBar
+                android:id="@+id/progressBar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:visibility="gone"
+                android:layout_marginTop="24dp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

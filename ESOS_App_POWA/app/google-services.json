@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "779051793611",
+    "project_id": "e-sos-app-powa",
+    "storage_bucket": "e-sos-app-powa.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:779051793611:android:d1cc15a9fe137f6a586f4e",
+        "android_client_info": {
+          "package_name": "com.example.esos_app_powa"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCB1LNqO7-rpsbDj534CN7f-wAWT227Bkg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

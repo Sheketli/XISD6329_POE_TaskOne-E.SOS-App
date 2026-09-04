@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="incident_types">
+        <item>Physical Abuse</item>
+        <item>Emotional Abuse</item>
+        <item>Sexual Abuse</item>
+        <item>Harassment</item>
+        <item>Stalking</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>English</item>
+        <item>Zulu</item>
+    </string-array>
+
+    <string-array name="relationships">
+        <item>Spouse</item>
+        <item>Family Member</item>
+        <item>Friend</item>
+        <item>Counsellor</item>
+        <item>Other</item>
+    </string-array>
+</resources>

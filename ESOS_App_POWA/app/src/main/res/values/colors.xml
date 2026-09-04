@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors - POWA Branding -->
+    <color name="primary_red">#E53935</color>
+    <color name="primary_dark">#1A1A1A</color>
+    <color name="surface_white">#FAFAFA</color>
+
+    <!-- Secondary Colors -->
+    <color name="muted_gray">#757575</color>
+    <color name="success_green">#43A047</color>
+    <color name="warning_amber">#FB8C00</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#616161</color>
+    <color name="text_white">#FFFFFF</color>
+
+    <!-- Alert Colors -->
+    <color name="alert_background">#FFEBEE</color>
+    <color name="alert_border">#E53935</color>
+
+    <!-- Additional Colors -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="light_gray">#EEEEEE</color>
+    <color name="very_light_gray">#F5F5F5</color>
+    <color name="dark_gray">#424242</color>
+    <color name="divider_color">#BDBDBD</color>
+
+    <!-- Semantic Colors -->
+    <color name="error">#D32F2F</color>
+    <color name="success">#388E3C</color>
+    <color name="warning">#F57C00</color>
+    <color name="info">#1976D2</color>
+
+    <!-- Transparent Colors -->
+    <color name="black_alpha_20">#33000000</color>
+    <color name="black_alpha_40">#66000000</color>
+    <color name="white_alpha_20">#33FFFFFF</color>
+</resources>

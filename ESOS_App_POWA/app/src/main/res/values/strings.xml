@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">E.SOS App</string>
+    <string name="app_tagline">Emergency. Support. Safety.</string>
+
+    <!-- Authentication -->
+    <string name="login">Sign In</string>
+    <string name="register">Create Account</string>
+    <string name="email">Email Address</string>
+    <string name="password">Password</string>
+    <string name="password_confirm">Confirm Password</string>
+    <string name="full_name">Full Name</string>
+    <string name="phone_number">Phone Number</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="dont_have_account">Don\'t have an account? Sign Up</string>
+    <string name="already_have_account">Already have an account? Sign In</string>
+    <string name="medical_info">Medical Information (Optional)</string>
+    <string name="preferred_language">Preferred Language</string>
+    <string name="popia_consent">I agree to POWA\'s Privacy Policy and Terms of Service</string>
+    <string name="create_account_button">Create Account</string>
+    <string name="sign_in_button">Sign In</string>
+
+    <!-- Home Screen -->
+    <string name="sos_button_label">SOS</string>
+    <string name="sos_subtitle">Tap to send emergency alert</string>
+    <string name="quick_exit">QUICK EXIT</string>
+    <string name="find_shelter">Find Shelter</string>
+    <string name="report_incident">Report Incident</string>
+    <string name="emergency_contacts">Emergency Contacts</string>
+    <string name="secure_chat">Secure Chat</string>
+    <string name="alert_sent">Alert Sent</string>
+    <string name="alert_sent_message">Help is on the way. Stay safe.</string>
+    <string name="gps_active">GPS Active</string>
+    <string name="network_status">Network Connected</string>
+
+    <!-- Location -->
+    <string name="sharing_location">Sharing location with:</string>
+    <string name="location_approximate">Location Approximate</string>
+    <string name="stop_sharing">Stop Sharing</string>
+    <string name="update_contacts">Update Contacts</string>
+    <string name="latitude">Latitude: %s</string>
+    <string name="longitude">Longitude: %s</string>
+
+    <!-- Incident Report -->
+    <string name="incident_type">Incident Type</string>
+    <string name="physical_abuse">Physical Abuse</string>
+    <string name="emotional_abuse">Emotional Abuse</string>
+    <string name="sexual_abuse">Sexual Abuse</string>
+    <string name="harassment">Harassment</string>
+    <string name="stalking">Stalking</string>
+    <string name="other">Other</string>
+    <string name="incident_date">Date of Incident</string>
+    <string name="incident_location">Location</string>
+    <string name="incident_description">Description of Incident</string>
+    <string name="upload_photo">Upload Photo</string>
+    <string name="upload_voice_note">Voice Note</string>
+    <string name="submit_report">Submit Report Securely</string>
+    <string name="end_to_end_encrypted">End-to-end encrypted · RSA-4096</string>
+    <string name="report_submitted">Report submitted successfully</string>
+    <string name="reference_number">Reference Number: %s</string>
+
+    <!-- Emergency Directory -->
+    <string name="saps_emergency">SAPS Emergency</string>
+    <string name="saps_emergency_number">10111</string>
+    <string name="saps_family_violence">SAPS Family Violence Unit</string>
+    <string name="saps_family_violence_number">08600 10111</string>
+    <string name="gbv_command_centre">GBV Command Centre (24/7)</string>
+    <string name="gbv_command_centre_number">0800 428 428</string>
+    <string name="childline_sa">Childline SA</string>
+    <string name="childline_sa_number">0800 055 555</string>
+    <string name="legal_aid_sa">Legal Aid SA</string>
+    <string name="legal_aid_sa_number">0800 110 110</string>
+    <string name="human_rights_commission">Human Rights Commission</string>
+    <string name="human_rights_commission_number">011 877 3600</string>
+    <string name="ambulance">Ambulance</string>
+    <string name="ambulance_number">10177</string>
+    <string name="emergency_sms_line">Emergency SMS Line (Disabilities)</string>
+    <string name="emergency_sms_line_number">31276</string>
+    <string name="tap_to_call">Tap to call</string>
+
+    <!-- Messaging -->
+    <string name="secure_messaging">Secure Messaging</string>
+    <string name="message_hint">Type a message...</string>
+    <string name="send">Send</string>
+    <string name="verified_operator">Verified POWA Operator</string>
+    <string name="end_to_end_encrypted_chat">Secured with end-to-end encryption</string>
+
+    <!-- Profile -->
+    <string name="my_profile">My Profile</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="emergency_contact_list">Emergency Contacts</string>
+    <string name="add_contact">Add Emergency Contact</string>
+    <string name="contact_name">Contact Name</string>
+    <string name="contact_relationship">Relationship</string>
+    <string name="notify_via_sms">Notify via SMS</string>
+    <string name="notify_via_email">Notify via Email</string>
+    <string name="account_settings">Account Settings</string>
+    <string name="delete_account">Delete Account</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="language_preference">Language Preference</string>
+    <string name="no_emergency_contacts">No emergency contacts added.</string>
+
+    <!-- Alert History -->
+    <string name="alert_history">Alert History</string>
+    <string name="incident_history">Incident History</string>
+    <string name="status_active">ACTIVE</string>
+    <string name="status_resolved">RESOLVED</string>
+    <string name="status_cancelled">CANCELLED</string>
+    <string name="no_alerts">No alerts yet</string>
+    <string name="no_incidents">No incident reports yet</string>
+
+    <!-- Resources -->
+    <string name="resources">Resources</string>
+    <string name="know_your_rights">Know Your Rights</string>
+    <string name="signs_of_abuse">Signs of Abuse</string>
+    <string name="safe_shelters">Safe Shelters</string>
+    <string name="legal_aid">Legal Aid</string>
+
+    <!-- Error Messages -->
+    <string name="error_email_invalid">Please enter a valid email</string>
+    <string name="error_password_short">Password must be at least 8 characters</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="error_phone_invalid">Please enter a valid phone number</string>
+    <string name="error_location_unavailable">Location unavailable. Using last known location.</string>
+    <string name="error_network">No internet connection. SMS fallback activated.</string>
+    <string name="error_generic">An error occurred. Please try again.</string>
+
+    <!-- Navigation -->
+    <string name="home">Home</string>
+    <string name="messages">Messages</string>
+    <string name="reports">Reports</string>
+    <string name="contacts">Contacts</string>
+    <string name="directory">Directory</string>
+    <string name="profile">Profile</string>
+
+    <!-- Buttons -->
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="confirm">Confirm</string>
+    <string name="back">Back</string>
+
+    <!-- Silent Alert -->
+    <string name="silent_alert">Silent Alert</string>
+    <string name="silent_alert_enabled">Silent Alert Enabled</string>
+    <string name="configure_silent_alert">Configure Silent Alert</string>
+    <string name="volume_button_sequence">Volume Button Sequence</string>
+    <string name="silent_alert_warning">Configure this before you need it</string>
+
+    <!-- Accessibility -->
+    <string name="content_description_sos_button">SOS Emergency Alert Button</string>
+    <string name="content_description_quick_exit">Quick Exit Button</string>
+    <string name="content_description_menu">Menu</string>
+    <string name="content_description_back">Go Back</string>
+
+</resources>
