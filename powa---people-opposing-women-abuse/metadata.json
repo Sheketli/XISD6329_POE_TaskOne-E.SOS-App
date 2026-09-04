@@ -1,8 +1,0 @@
-{
-  "name": "e.sos",
-  "description": "An NGO website dedicated to supporting survivors of gender-based violence (GBV) with resources, counseling, and urgent help.",
-  "requestFramePermissions": [],
-  "majorCapabilities": [
-    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
-  ]
-}
