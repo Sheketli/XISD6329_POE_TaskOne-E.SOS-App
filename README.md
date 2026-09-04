@@ -1,5 +1,7 @@
 # XISD6329_POE_TaskOne-E.SOS-App
-E.SOS App
+
+# E.SOS App
+
 **Emergency SOS Services Project** — developed in partnership with **POWA (People Opposing Women Abuse)**, a South African non-profit organisation established in 1979 that provides free counselling, legal services, shelter, advocacy, and public awareness programmes for survivors of gender-based violence.
 
 ![Status](https://img.shields.io/badge/status-in%20development-orange)
